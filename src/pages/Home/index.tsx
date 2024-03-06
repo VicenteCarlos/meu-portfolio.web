@@ -3,6 +3,7 @@ import { GlobalStyle } from "../../styles/global";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import { Modal } from "./components/Modal";
+import { Footer } from "./components/Footer";
 
 export const Home = () => {
   const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
@@ -18,6 +19,7 @@ export const Home = () => {
         <>
           <Header handleModal={handleModal} />
           <Main />
+          <Footer />
         </>
       )}
     </>

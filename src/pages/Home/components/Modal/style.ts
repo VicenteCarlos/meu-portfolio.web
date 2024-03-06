@@ -29,8 +29,8 @@ export const Container: any = styled.div`
     background-color: #C6C6C6;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-top: 10rem;
     margin-bottom: 3rem;
     padding: 1.8rem;
+    font-family: 'ms_sans_serif';
   }
 `;
