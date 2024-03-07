@@ -19,7 +19,7 @@ export const Modal = ({ handleModal }: IPropsLogicalModalMobile) => (
           </Anchor>
         </li>
         <li>
-          <Anchor href="/project">Projetos</Anchor>
+          <Anchor href="/portfolio">Projetos</Anchor>
         </li>
         <li>
           <Anchor href="https://drive.google.com/file/d/1zXradmgh5Wo4umhGUJ2GBVU7tJV9zusS/view?usp=sharing" target="_blank">Meu currículo</Anchor>

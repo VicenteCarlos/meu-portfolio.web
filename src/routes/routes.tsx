@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import { Home } from "../pages/Home";
+import { Portfolio } from "@/pages/Portfolio";
 
 interface IRoutesProps {
   path: string;
@@ -10,5 +11,9 @@ export const routes: IRoutesProps[] = [
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
   },
 ];
