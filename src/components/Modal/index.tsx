@@ -1,4 +1,4 @@
-import { IPropsLogicalModalMobile } from "../../interfaces";
+import { IPropsLogicalModalMobile } from "./interfaces";
 import { Container } from "./style";
 import { Anchor, Button } from "react95";
 import { motion } from "framer-motion";

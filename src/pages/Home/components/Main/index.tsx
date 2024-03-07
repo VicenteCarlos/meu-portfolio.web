@@ -1,9 +1,5 @@
 import { MainStyle } from "./style";
 import { Avatar, Frame, Anchor } from "react95";
-import {} from "../../../../../public/assets/svg/amgular.svg";
-import {} from "../../../../../public/assets/svg/react.svg";
-import {} from "../../../../../public/assets/svg/spring.svg";
-import {} from "../../../../../public/assets/svg/node.svg";
 import { iconsNetwork, iconsTechs } from "./mock";
 
 export const Main = () => {

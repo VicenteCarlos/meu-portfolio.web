@@ -1,4 +1,4 @@
-import { IPropsLogicalModalMobile } from "../../interfaces";
+import { IPropsLogicalModalMobile } from "../Modal/interfaces";
 import { HeaderStyle } from "./style";
 
 export const Header = ({ handleModal }: IPropsLogicalModalMobile) => {

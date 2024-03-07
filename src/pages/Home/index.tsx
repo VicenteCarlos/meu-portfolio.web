@@ -1,14 +1,12 @@
-import { useState } from "react";
 import { GlobalStyle } from "../../styles/global";
-import { Header } from "./components/Header";
+import { Header } from "../../components/Header";
 import { Main } from "./components/Main";
-import { Modal } from "./components/Modal";
+import { Modal } from "../../components/Modal";
 import { Footer } from "./components/Footer";
+import { useModal } from "@/contexts/ModalProvider";
 
 export const Home = () => {
-  const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
-
-  const handleModal = (): void => setModalIsOpen(!modalIsOpen)
+  const { modalIsOpen, handleModal } = useModal()
 
   return (
     <>
