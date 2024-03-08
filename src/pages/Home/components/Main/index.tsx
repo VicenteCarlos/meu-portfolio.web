@@ -9,9 +9,10 @@ export const Main = () => {
         <section id="about-me">
           <div id="perfil">
             <Frame
+             className="perfil-content"
               variant="outside"
               shadow
-              style={{ padding: "0.5rem", width: "70vw", height: "50vh" }}
+              style={{ padding: "0.5rem", height: "50vh" }}
             >
               <figure>
                 <Avatar
@@ -22,7 +23,7 @@ export const Main = () => {
               </figure>
             </Frame>
           </div>
-          <div>
+          <div id="about-more-me">
             <h2>Sobre mim</h2>
             <p>
               Gosto bastante de aprender e ensinar, sempre ajudo quem posso com
@@ -38,7 +39,7 @@ export const Main = () => {
           </div>
         </section>
         <section id="techs">
-          <Frame style={{ width: "80vw", padding: "2rem" }}>
+          <Frame className="frame-tech" style={{ padding: "2rem" }}>
             <h2>Tecnologias</h2>
             <div id="content-img">
               {iconsTechs.map((item, i) => (
@@ -70,7 +71,7 @@ export const Main = () => {
           </div>
         </section>
         <section id="network">
-          <Frame style={{ width: "80vw", padding: "2rem" }}>
+          <Frame className="frame-network" style={{ padding: "2rem" }}>
             <h2>Interaja comigo</h2>
             <nav className="content-network">
               <ul>

@@ -13,7 +13,7 @@ export const Portfolio = () => {
     <>
       <GlobalStyle />
       {modalIsOpen ? (
-        <Modal handleModal={handleModal}/>
+        <Modal handleModal={handleModal} />
       ) : (
         <>
           <Header handleModal={handleModal} />
@@ -23,13 +23,12 @@ export const Portfolio = () => {
                 <h1>Projetos</h1>
               </div>
               <section>
-                <Frame style={{ width: "80vw", padding: "20px" }}>
+                <Frame className="frame-container" style={{ padding: "20px" }}>
                   {projects.map((item: IProject, i: number) => (
                     <Frame
                       className="content"
                       shadow
                       style={{
-                        width: "100%",
                         padding: "10px",
                         backgroundImage: `url(${item.background})`,
                         backgroundSize: "cover",

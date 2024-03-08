@@ -11,9 +11,39 @@ export const HeaderStyle = styled.header`
       font-size: 1.5rem;
     }
 
+    nav {
+      display: none;
+    }
+
     button {
       background: none;
       border: none;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    #container {
+      margin-top: 2rem;
+      
+      nav {
+        display: flex;
+
+        ul {
+          display: flex;
+
+          li {
+            list-style-type: none;
+            margin: 0 1rem;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      button {
+        display: none;
+      }
     }
   }
 `;

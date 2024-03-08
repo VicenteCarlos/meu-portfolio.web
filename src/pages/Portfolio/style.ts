@@ -19,9 +19,10 @@ export const MainStyle = styled.main`
       overflow-y: scroll;
       height: 80vh;
 
-      div {
+      .frame-container {
         display: flex;
         flex-direction: column;
+        width: 80vw;
 
         .content {
           margin: 1.5rem 0;
@@ -29,7 +30,7 @@ export const MainStyle = styled.main`
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          /* background-color: #000a68; */
+          width: 100%;
 
           nav {
             margin-top: 1.5rem;
@@ -49,6 +50,36 @@ export const MainStyle = styled.main`
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    #container {
+      margin-top: 3rem;
+
+      section {
+        overflow-y: hidden;
+
+        .frame-container {
+          flex-direction: row;
+          width: 80vw;
+          overflow-x: scroll;
+
+          .content {
+            margin: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    #container {
+      section {
+        .frame-container {
+          width: 66vw;
         }
       }
     }
