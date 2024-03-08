@@ -7,21 +7,21 @@ export interface IProject {
 
 export const projects: IProject[] = [
   {
-    image: "../../../public/assets/svg/dashgo.svg",
+    image: "/assets/svg/dashgo.svg",
     url: "https://dashgo-web02.vercel.app/",
     github: "https://github.com/VicenteCarlos/dashgo.web",
-    background: "../../../public/assets/img/dev.gif",
+    background: "/assets/img/dev.gif",
   },
   {
-    image: "../../../public/assets/svg/githubapi.svg",
+    image: "/assets/svg/githubapi.svg",
     url: "https://search-users-eight.vercel.app/",
     github: "https://github.com/VicenteCarlos/search-users",
-    background: "../../../public/assets/img/git.gif",
+    background: "/assets/img/git.gif",
   },
   {
-    image: "../../../public/assets/svg/ricky.svg",
+    image: "/assets/svg/ricky.svg",
     url: "https://ricky-and-morty-web-nine.vercel.app/",
     github: "https://github.com/VicenteCarlos/ricky-and-morty.web",
-    background: "../../../public/assets/img/ricky.gif",
+    background: "/assets/img/ricky.gif",
   },
 ];
