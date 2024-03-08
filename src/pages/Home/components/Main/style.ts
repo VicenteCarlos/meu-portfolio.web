@@ -59,6 +59,12 @@ export const MainStyle = styled.main`
           margin-top: 3rem;
         }
       }
+
+      #about-more-me {
+        p {
+          line-height: 25px;
+        }
+      }
     }
 
     #techs {
@@ -87,6 +93,10 @@ export const MainStyle = styled.main`
 
       div {
         margin: 1.2rem 0;
+        
+        p {
+          line-height: 25px;
+        }
       }
     }
 
@@ -121,6 +131,7 @@ export const MainStyle = styled.main`
       flex-direction: column;
       align-items: center;
       margin-top: 4rem;
+      font-size: 1.1rem;
 
       #about-me {
         display: flex;
@@ -152,22 +163,21 @@ export const MainStyle = styled.main`
 
   @media only screen and (min-width: 1280px) {
     #container {
-
-     #techs {
-      .frame-tech {
-        width: 60vw;
+      #techs {
+        .frame-tech {
+          width: 60vw;
+        }
       }
-     }
 
-     #services {
+      #services {
         width: 55vw;
       }
-      
-     #network {
-      .frame-network {
-        width: 50vw;
+
+      #network {
+        .frame-network {
+          width: 50vw;
+        }
       }
-     }
     }
   }
 `;
