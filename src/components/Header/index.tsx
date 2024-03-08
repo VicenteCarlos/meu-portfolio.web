@@ -34,7 +34,7 @@ export const Header = ({ handleModal }: IPropsLogicalModalMobile) => {
         </nav>
         <button onClick={handleModal}>
           <img
-            src="../../../../../public/assets/svg/menu-mobile.svg"
+            src="/assets/svg/menu-mobile.svg"
             alt="menu-mobile"
           />
         </button>

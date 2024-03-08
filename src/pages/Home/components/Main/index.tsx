@@ -17,7 +17,7 @@ export const Main = () => {
               <figure>
                 <Avatar
                   size={160}
-                  src="../../../../../public/assets/svg/avatar.svg"
+                  src="assets/svg/avatar.svg"
                 />
                 <figcaption>FullStack Developer</figcaption>
               </figure>

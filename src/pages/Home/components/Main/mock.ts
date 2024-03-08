@@ -4,25 +4,25 @@ interface IPropsIconsNetwork {
 }
 
 export const iconsTechs: string[] = [
-  "../../../../../public/assets/svg/amgular.svg",
-  "../../../../../public/assets/svg/react.svg",
-  "../../../../../public/assets/svg/spring.svg",
-  "../../../../../public/assets/svg/node.svg",
-  "../../../../../public/assets/svg/typescript.svg",
-  "../../../../../public/assets/svg/java.svg",
+  "/assets/svg/amgular.svg",
+  "/assets/svg/react.svg",
+  "/assets/svg/spring.svg",
+  "/assets/svg/node.svg",
+  "/assets/svg/typescript.svg",
+  "/assets/svg/java.svg",
 ];
 
 export const iconsNetwork: IPropsIconsNetwork[] = [
   {
-    path: "../../../../../public/assets/svg/github.svg",
+    path: "/assets/svg/github.svg",
     link: "https://github.com/VicenteCarlos",
   },
   {
-    path: "../../../../../public/assets/svg/inkedin.svg",
+    path: "/assets/svg/inkedin.svg",
     link: "https://www.linkedin.com/in/vicente-carlos-silva/",
   },
   {
-    path: "../../../../../public/assets/svg/gmail.svg",
+    path: "/assets/svg/gmail.svg",
     link: "mailto:vicentecarloshehe@gmail.com",
   },
 ];
